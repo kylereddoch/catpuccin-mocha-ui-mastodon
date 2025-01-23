@@ -14,3 +14,7 @@ Right now, you will need to install via an extension like [Stylus](https://chrom
 2. Copy the contents of layout-multiple-columns.css
 3. Paste contents into the new stylus style, enter the URL(s) you want it to apply to, and save your style.
 4. Now when you go to the URL(s) you entered, the style will be applied.  
+
+### Coming soon!
+
+I am aware of an issue with margin issues when using this on instances running Glitch SOC. I am working on a fix.

@@ -1,8 +1,5 @@
-/* Catpuccin Mocha UI for Mastodon (Multi-column, Left compose) by @bearededtechguy@allthingstech.social
-   1.0.0 */
-
-/* Inspired by Jason Crabtree Catpuccin BirdUI Theme https://github.com/jcrabapple/mastodon-bird-ui-catppuccin-mocha
- */
+/* Mastodon Bird UI by @rolle@mementomori.social
+   2.1.1 */
 
 /* CSS variables */
 :root {
@@ -4876,4 +4873,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
 .layout-multiple-columns .detailed-status__meta svg, 
 .layout-multiple-columns .status .status__visibility-icon svg {
     color: var(--color-red) !important;
+}
+.layout-multiple-columns .account .account__relationship > .button {
+  background-color: var(--color-link) !important;
 }
