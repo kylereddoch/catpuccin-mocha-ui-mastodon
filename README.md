@@ -4,7 +4,7 @@
 
 ![Screenhost of Catpuccin Mocha UI](images/7525cd455503d0f959648342e32bcc3040ddfa00d95680557b87d5d9f6c44655.png)
 
-Theme colors taken from [Jason Crabtree's](https://github.com/jcrabapple/mastodon-bird-ui-catppuccin-mocha) Catpuccin Mocha BirdUI. It has been edited so the compose area is on the left as opposed to the right as in the original [BirdUI](https://github.com/ronilaukkarinen/mastodon-bird-ui).
+Similiar to the project from [Jason Crabtree's](https://github.com/jcrabapple/mastodon-bird-ui-catppuccin-mocha), I have created a Cattpuccin Mocha theme Mastodon UI. This UI is for the Advanced Web View setting. The main theme is taken from the well known [BirdUI](https://github.com/ronilaukkarinen/mastodon-bird-ui) but I have made some changes to it to fit my needs. Most noticably is moving the compose section to the left-hand side instead of on the right.
 
 ## How to install
 
