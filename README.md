@@ -3,7 +3,7 @@
 [![Supported Mastodon version](https://img.shields.io/badge/mastodon-v4.5.0-595aff)](https://github.com/mastodon/mastodon)
 <a href="https://github.com/sponsors/kylereddoch"><img src="https://img.shields.io/badge/GitHub%20Sponsors-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="GitHub Sponsors" height="20px"></a>
 <a href="https://ko-fi.com/kylereddoch"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" height="20px"></a>
-<a href="https://ko-fi.com/kylereddoch"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee" height="20px"></a>
+<a href="https://buymeacoffee.com/kylereddoch"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee" height="20px"></a>
 
 ![Screenshot of Catppuccin Complete UI for Mastodon](images/catppuccin-complete-ui.png)
 
@@ -20,14 +20,20 @@ It started as a personal Mocha-style advanced-web setup, then grew into a more c
 
 ## Table of Contents
 
-1. [Why This Theme Exists](#why-this-theme-exists)
-2. [Highlights](#highlights)
-3. [Files and Downloads](#files-and-downloads)
-4. [Installation](#installation)
-5. [Theme Options](#theme-options)
-6. [Compatibility](#compatibility)
-7. [Support](#support)
-8. [Credits](#credits)
+- [Catppuccin Complete UI for Mastodon](#catppuccin-complete-ui-for-mastodon)
+- [Table of Contents](#table-of-contents)
+- [Why This Theme Exists](#why-this-theme-exists)
+- [Highlights](#highlights)
+- [Files and Downloads](#files-and-downloads)
+- [Installation](#installation)
+  - [Recommended: Stylus / UserCSS](#recommended-stylus--usercss)
+  - [Plain CSS: Default Exports](#plain-css-default-exports)
+  - [Plain CSS: Fixed Flavor + Accent Files](#plain-css-fixed-flavor--accent-files)
+  - [Instance Admin Install](#instance-admin-install)
+- [Theme Options](#theme-options)
+- [Compatibility](#compatibility)
+- [Support](#support)
+- [Credits](#credits)
 
 ## Why This Theme Exists
 
@@ -128,7 +134,7 @@ If you like the project and want to support future updates:
 
 <a href="https://github.com/sponsors/kylereddoch"><img src="https://img.shields.io/badge/GitHub%20Sponsors-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="GitHub Sponsors" height="24px"></a>
 <a href="https://ko-fi.com/kylereddoch"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" height="24px"></a>
-<a href="https://ko-fi.com/kylereddoch"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee" height="24px"></a>
+<a href="https://buymeacoffee.com/kylereddoch"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy me a coffee" height="24px"></a>
 
 ## Credits
 
