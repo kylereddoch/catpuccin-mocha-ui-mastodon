@@ -1,7 +1,7 @@
 ﻿/* Catppuccin Complete UI for Mastodon
    By Kyle Reddoch
    Inspired by Bird UI 3.0.0 (365b03413a4d97d5e4b11f21821bf9aee85fbcf7)
-   Default flavor: Mocha
+   Fixed theme: Mocha / Blue
    Scope: Advanced web / multi-column
 */
 
@@ -5574,8 +5574,8 @@ div[tabindex="-1"]
   --themeMetaAccent: var(--accentColor);
   --accentColor: #89b4fa;
   --accentColorRgb: 137, 180, 250;
-  --accentStrong: #b4befe;
-  --accentStrongRgb: 180, 190, 254;
+  --accentStrong: #89b4fa;
+  --accentStrongRgb: 137, 180, 250;
   --surfaceMud: rgba(var(--cpSurface0Rgb), 0.58);
   --composeFill: rgba(var(--cpSurface0Rgb), 0.42);
   --composeFocusFill: rgba(var(--cpSurface0Rgb), 0.82);

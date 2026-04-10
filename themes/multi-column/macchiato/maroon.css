@@ -1,7 +1,7 @@
 ﻿/* Catppuccin Complete UI for Mastodon
    By Kyle Reddoch
    Inspired by Bird UI 3.0.0 (365b03413a4d97d5e4b11f21821bf9aee85fbcf7)
-   Default flavor: Mocha
+   Fixed theme: Macchiato / Maroon
    Scope: Advanced web / multi-column
 */
 
@@ -5522,49 +5522,49 @@ div[tabindex="-1"]
 
 /* Catppuccin Complete UI shared overrides */
 :root {
-  --cpRosewater: #f5e0dc;
-  --cpRosewaterRgb: 245, 224, 220;
-  --cpFlamingo: #f2cdcd;
-  --cpFlamingoRgb: 242, 205, 205;
-  --cpPink: #f5c2e7;
-  --cpPinkRgb: 245, 194, 231;
-  --cpMauve: #cba6f7;
-  --cpMauveRgb: 203, 166, 247;
-  --cpRed: #f38ba8;
-  --cpRedRgb: 243, 139, 168;
-  --cpMaroon: #eba0ac;
-  --cpMaroonRgb: 235, 160, 172;
-  --cpPeach: #fab387;
-  --cpPeachRgb: 250, 179, 135;
-  --cpYellow: #f9e2af;
-  --cpYellowRgb: 249, 226, 175;
-  --cpGreen: #a6e3a1;
-  --cpGreenRgb: 166, 227, 161;
-  --cpTeal: #94e2d5;
-  --cpTealRgb: 148, 226, 213;
-  --cpSky: #89dceb;
-  --cpSkyRgb: 137, 220, 235;
-  --cpSapphire: #74c7ec;
-  --cpSapphireRgb: 116, 199, 236;
-  --cpBlue: #89b4fa;
-  --cpBlueRgb: 137, 180, 250;
-  --cpLavender: #b4befe;
-  --cpLavenderRgb: 180, 190, 254;
-  --cpText: #cdd6f4;
-  --cpTextRgb: 205, 214, 244;
-  --cpOverlay0: #6c7086;
-  --cpSurface2: #585b70;
-  --cpSurface1: #45475a;
-  --cpSurface0: #313244;
-  --cpSurface0Rgb: 49, 50, 68;
-  --cpBase: #1e1e2e;
-  --cpBaseRgb: 30, 30, 46;
-  --cpMantle: #181825;
-  --cpMantleRgb: 24, 24, 37;
-  --cpCrust: #11111b;
-  --cpCrustRgb: 17, 17, 27;
-  --buttonText: #1e1e2e;
-  --modalOverlay: rgba(17, 17, 27, 0.55);
+  --cpRosewater: #f4dbd6;
+  --cpRosewaterRgb: 244, 219, 214;
+  --cpFlamingo: #f0c6c6;
+  --cpFlamingoRgb: 240, 198, 198;
+  --cpPink: #f5bde6;
+  --cpPinkRgb: 245, 189, 230;
+  --cpMauve: #c6a0f6;
+  --cpMauveRgb: 198, 160, 246;
+  --cpRed: #ed8796;
+  --cpRedRgb: 237, 135, 150;
+  --cpMaroon: #ee99a0;
+  --cpMaroonRgb: 238, 153, 160;
+  --cpPeach: #f5a97f;
+  --cpPeachRgb: 245, 169, 127;
+  --cpYellow: #eed49f;
+  --cpYellowRgb: 238, 212, 159;
+  --cpGreen: #a6da95;
+  --cpGreenRgb: 166, 218, 149;
+  --cpTeal: #8bd5ca;
+  --cpTealRgb: 139, 213, 202;
+  --cpSky: #91d7e3;
+  --cpSkyRgb: 145, 215, 227;
+  --cpSapphire: #7dc4e4;
+  --cpSapphireRgb: 125, 196, 228;
+  --cpBlue: #8aadf4;
+  --cpBlueRgb: 138, 173, 244;
+  --cpLavender: #b7bdf8;
+  --cpLavenderRgb: 183, 189, 248;
+  --cpText: #cad3f5;
+  --cpTextRgb: 202, 211, 245;
+  --cpOverlay0: #6e738d;
+  --cpSurface2: #5b6078;
+  --cpSurface1: #494d64;
+  --cpSurface0: #363a4f;
+  --cpSurface0Rgb: 54, 58, 79;
+  --cpBase: #24273a;
+  --cpBaseRgb: 36, 39, 58;
+  --cpMantle: #1e2030;
+  --cpMantleRgb: 30, 32, 48;
+  --cpCrust: #181926;
+  --cpCrustRgb: 24, 25, 38;
+  --buttonText: #24273a;
+  --modalOverlay: rgba(24, 25, 38, 0.55);
   --themeDimText: var(--cpOverlay0);
   --themeAccentInk: var(--accentColor);
   --themeAccentButtonFill: var(--accentStrong);
@@ -5572,10 +5572,10 @@ div[tabindex="-1"]
   --themeAccentButtonText: var(--cpBase);
   --themeDisplayNameColor: var(--cpText);
   --themeMetaAccent: var(--accentColor);
-  --accentColor: #89b4fa;
-  --accentColorRgb: 137, 180, 250;
-  --accentStrong: #b4befe;
-  --accentStrongRgb: 180, 190, 254;
+  --accentColor: #ee99a0;
+  --accentColorRgb: 238, 153, 160;
+  --accentStrong: #ee99a0;
+  --accentStrongRgb: 238, 153, 160;
   --surfaceMud: rgba(var(--cpSurface0Rgb), 0.58);
   --composeFill: rgba(var(--cpSurface0Rgb), 0.42);
   --composeFocusFill: rgba(var(--cpSurface0Rgb), 0.82);
