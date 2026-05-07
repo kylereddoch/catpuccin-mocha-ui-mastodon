@@ -16,6 +16,7 @@ It started as a personal Mocha-style advanced-web setup, then grew into a more c
 - a configurable Stylus/UserCSS install
 - fixed CSS downloads for people who do not want runtime options
 - support for both regular Mastodon and the advanced web interface
+- separate GlitchSoc-specific theme files for Glitch-flavored Mastodon instances
 - my preferred advanced-web layout tweaks, including the larger left-side composer
 
 ## Table of Contents
@@ -43,6 +44,7 @@ Bird UI already proved that Mastodon could feel more intentional, comfortable, a
 - broader accent control
 - stronger coverage in the advanced web interface
 - a larger composer moved to the left side
+- separate GlitchSoc-targeted builds for instances using the Glitch flavor
 - ready-to-use files for people who want either UserCSS options or plain CSS
 
 This project is the result of that.
@@ -50,7 +52,9 @@ This project is the result of that.
 ## Highlights
 
 - One configurable UserCSS file for people using Stylus or similar extensions
+- A separate configurable UserCSS file for GlitchSoc-based instances
 - Separate fixed CSS files for advanced web and regular view
+- Separate fixed CSS files for GlitchSoc advanced web and regular view
 - Organized fixed exports for every Catppuccin flavor and accent combination
 - Improved accent coverage across more of the interface
 - Theme-aware color handling for both dark and light Catppuccin flavors
@@ -61,23 +65,28 @@ This project is the result of that.
 | File or folder | Best for | Notes |
 | --- | --- | --- |
 | `catppuccin-complete-ui.user.css` | Stylus and other userstyle managers | Recommended install. Covers both layouts and includes theme options. |
+| `catppuccin-complete-ui-glitch.user.css` | Stylus on GlitchSoc instances | Recommended install for GlitchSoc-flavored Mastodon. Includes the same theme options with Glitch-specific layout fixes. |
 | `layout-multiple-columns.css` | Advanced web / multi-column view | Default fixed Mocha export. |
 | `layout-single-column.css` | Regular Mastodon view | Default fixed Mocha export. |
+| `layout-multiple-columns-glitch.css` | GlitchSoc advanced web / multi-column view | Default fixed Mocha export for GlitchSoc. |
+| `layout-single-column-glitch.css` | GlitchSoc regular view | Default fixed Mocha export for GlitchSoc. |
 | `themes/multi-column/<flavor>/<accent>.css` | Advanced web users who want a fixed variant | Plain CSS, no runtime options. |
 | `themes/single-column/<flavor>/<accent>.css` | Regular-view users who want a fixed variant | Plain CSS, no runtime options. |
+| `themes/glitch-multi-column/<flavor>/<accent>.css` | GlitchSoc advanced web users who want a fixed variant | Plain CSS, no runtime options. |
+| `themes/glitch-single-column/<flavor>/<accent>.css` | GlitchSoc regular-view users who want a fixed variant | Plain CSS, no runtime options. |
 
-The `themes/` folder currently contains `120` fixed exports:
+The `themes/` folder currently contains `240` fixed exports:
 
 - `4` flavors
 - `15` accent choices
-- `2` layout targets
+- `4` layout targets
 
 ## Installation
 
 ### Recommended: Stylus / UserCSS
 
 1. Install [Stylus](https://add0n.com/stylus.html) or another userstyle-compatible extension.
-2. Open `catppuccin-complete-ui.user.css` from this repo.
+2. Use `catppuccin-complete-ui.user.css` for standard Mastodon, or `catppuccin-complete-ui-glitch.user.css` if your instance uses GlitchSoc.
 3. Set the style to your Mastodon instance URL if your extension asks for site matching.
 4. Save it, then use the Stylus settings panel to choose your flavor, accent, layout options, and widths.
 
@@ -86,8 +95,8 @@ The `themes/` folder currently contains `120` fixed exports:
 Use this if you just want the default Mocha setup without UserCSS options.
 
 1. Create a new style in Stylus or your preferred custom CSS tool.
-2. Paste `layout-multiple-columns.css` for advanced web view.
-3. Paste `layout-single-column.css` for the regular single-column interface if you want both layouts covered.
+2. Paste `layout-multiple-columns.css` for standard advanced web view, or `layout-multiple-columns-glitch.css` for GlitchSoc advanced web.
+3. Paste `layout-single-column.css` for standard regular view, or `layout-single-column-glitch.css` for GlitchSoc regular view, if you want both layouts covered.
 4. Save the style for your Mastodon instance.
 
 ### Plain CSS: Fixed Flavor + Accent Files
@@ -95,7 +104,7 @@ Use this if you just want the default Mocha setup without UserCSS options.
 Use this if you want a specific Catppuccin flavor and accent, but do not want a configurable UserCSS install.
 
 1. Open the `themes/` folder in this repo.
-2. Choose `multi-column` or `single-column`.
+2. Choose the layout target you want: `multi-column`, `single-column`, `glitch-multi-column`, or `glitch-single-column`.
 3. Choose your flavor folder: `mocha`, `macchiato`, `frappe`, or `latte`.
 4. Pick the accent file you want, such as `default.css`, `blue.css`, `rosewater.css`, or `teal.css`.
 5. Paste that file into a new style for your Mastodon instance.
@@ -123,8 +132,10 @@ The configurable userstyle currently supports:
 ## Compatibility
 
 - This project is currently documented against Mastodon `4.5.0`.
+- Separate GlitchSoc-specific files are included and were tuned against a `v4.6.0-alpha.7+glitch` instance.
 - The advanced web interface is the most customized layout in this project.
 - Regular Mastodon view is included and styled with the same Catppuccin token system.
+- GlitchSoc support is provided through the dedicated `*-glitch.css` and `*-glitch.user.css` files rather than the standard Mastodon files.
 - Upstream Bird UI `3.0.0` also mentions support for `4.6.0-alpha.0`, but this project is still pinned to an older Bird UI commit and may still need small selector updates on newer Mastodon builds.
 - Heavily customized Mastodon forks or instance-specific patches may still need minor local tweaks.
 

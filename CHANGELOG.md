@@ -1,3 +1,13 @@
+### 2.1.0 2026-05-07
+
+- Added `catppuccin-complete-ui-glitch.user.css` as a dedicated Stylus/UserCSS install for GlitchSoc-based Mastodon instances.
+- Added `layout-multiple-columns-glitch.css` and `layout-single-column-glitch.css` as default fixed Mocha exports for GlitchSoc.
+- Added organized GlitchSoc fixed exports under `themes/glitch-multi-column/` and `themes/glitch-single-column/` for every Catppuccin flavor and accent combination.
+- Tuned the GlitchSoc theme layer around its different layout structure, including composer placement, column sizing, status spacing, notifications, and action bars.
+- Fixed the GlitchSoc userstyle width controls so composer panel width and timeline column width now work correctly.
+- Fixed narrow-column timestamp clipping in GlitchSoc so `status__relative-time` stays visible at smaller timeline widths.
+- Updated the README to document the GlitchSoc userstyle, fixed CSS files, organized theme folders, and compatibility notes.
+
 ### 2.0.0 2026-04-10
 
 - Rebuilt the project around a generated theme pipeline based on a pinned Bird UI `3.0.0` snapshot aligned with Mastodon `4.5.0`.

@@ -5952,15 +5952,31 @@ button.optional.copyable.icon-button {
 }
 
 .layout-multiple-columns .columns-area__panels__pane--compositional {
-  flex: 0 0 var(--catppuccin-compose-width);
-  max-width: var(--catppuccin-compose-width);
+  flex: 0 0 var(--catppuccin-compose-width) !important;
+  min-width: var(--catppuccin-compose-width) !important;
+  max-width: var(--catppuccin-compose-width) !important;
+  width: var(--catppuccin-compose-width) !important;
 }
 
 .layout-multiple-columns .compose-panel,
-.layout-multiple-columns .columns-area__panels__pane--compositional .columns-area__panels__pane__inner,
+.layout-multiple-columns .columns-area__panels__pane--compositional .columns-area__panels__pane__inner {
+  min-width: var(--catppuccin-compose-width) !important;
+  max-width: var(--catppuccin-compose-width) !important;
+  width: var(--catppuccin-compose-width) !important;
+}
+
+.layout-multiple-columns .column {
+  flex: 0 0 var(--width-column) !important;
+  min-width: var(--width-column) !important;
+  max-width: var(--width-column) !important;
+  width: var(--width-column) !important;
+}
+
 .layout-multiple-columns .drawer {
-  max-width: var(--catppuccin-compose-width);
-  width: 100%;
+  flex: 0 0 var(--catppuccin-compose-width) !important;
+  min-width: var(--catppuccin-compose-width) !important;
+  max-width: var(--catppuccin-compose-width) !important;
+  width: var(--catppuccin-compose-width) !important;
 }
 
 .layout-multiple-columns .drawer {
