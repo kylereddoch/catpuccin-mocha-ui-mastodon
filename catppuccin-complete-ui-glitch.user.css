@@ -12177,6 +12177,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-multiple-columns .status:not(.status--in-thread) > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-status-gutter) + 2px) !important;
 }
 
@@ -12215,6 +12217,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-multiple-columns .status--in-thread > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-thread-margin) + 2px) !important;
 }
 
@@ -12225,6 +12229,9 @@ button.optional.copyable.icon-button {
   margin-inline-start: var(--catppuccin-glitch-thread-margin) !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+.layout-multiple-columns .status__quote .status.status--is-quote > .status__content .status__content__text {
+  padding-inline-start: calc(var(--size-avatar) + var(--gap-default)) !important;
 }
 
 /* Catppuccin Complete UI GlitchSoc compatibility overrides */
@@ -12342,6 +12349,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-single-column .status:not(.status--in-thread) > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-status-gutter) + 2px) !important;
 }
 
@@ -12380,6 +12389,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-single-column .status--in-thread > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-thread-margin) + 2px) !important;
 }
 
@@ -12391,4 +12402,5 @@ button.optional.copyable.icon-button {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 }

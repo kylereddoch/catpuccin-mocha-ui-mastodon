@@ -1,3 +1,9 @@
+### 2.1.1 2026-05-12
+
+- Adjusted GlitchSoc spacing for `more-from-author` blocks so linked follow-up cards have proper left-side padding.
+- Fixed quoted-post text spacing in GlitchSoc multi-column view so nested quote content lines up more cleanly.
+- Rebuilt the dedicated GlitchSoc userstyle and fixed theme exports to keep the spacing changes consistent across all flavors and accents.
+
 ### 2.1.0 2026-05-07
 
 - Added `catppuccin-complete-ui-glitch.user.css` as a dedicated Stylus/UserCSS install for GlitchSoc-based Mastodon instances.

@@ -6610,6 +6610,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-single-column .status:not(.status--in-thread) > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-status-gutter) + 2px) !important;
 }
 
@@ -6648,6 +6650,8 @@ button.optional.copyable.icon-button {
 }
 
 .layout-single-column .status--in-thread > .more-from-author {
+  box-sizing: border-box;
+  padding-inline-start: 16px !important;
   width: calc(100% - var(--catppuccin-glitch-thread-margin) + 2px) !important;
 }
 
@@ -6659,4 +6663,5 @@ button.optional.copyable.icon-button {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 }
